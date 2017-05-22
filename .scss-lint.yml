@@ -1,0 +1,15 @@
+scss_files:
+  - 'app/assets/stylesheets/**'
+exclude: []
+include:
+  - The above stack trace
+  - SCSS-Lint version: 0.53.0
+  - Sass version: 3.4.24
+  - Ruby version: 2.4.0
+linters:
+  ImportantRule:
+    enabled: false
+  MergeableSelector:
+    enabled: false
+  Comment:
+    exclude: '**/*.css'
